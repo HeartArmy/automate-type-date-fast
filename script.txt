@@ -1,0 +1,7 @@
+on run {input, parameters}
+	
+	set thedate to (current date) as string
+	tell application "System Events"
+		keystroke thedate
+	end tell
+end run
